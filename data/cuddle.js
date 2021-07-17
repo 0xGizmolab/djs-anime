@@ -36,7 +36,7 @@ const axios = require('axios');
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 }
 module.exports = Anime;        
