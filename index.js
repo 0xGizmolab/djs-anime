@@ -1,2 +1,2 @@
-module.exports.Anime = require('./data/cuddle')
+module.exports.Anime = require('./data/images')
 
