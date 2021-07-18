@@ -1,6 +1,6 @@
 # Note
-DISCORD V12 - npm i djs-anime
-DISCORD V13 - npm i djs-anime@dev
+- DISCORD V12 - npm i djs-anime 
+- DISCORD V13 - npm i djs-anime@dev
 
 # About
 A discord.js Anime Package with With Many Anime Related Commands and Features!
@@ -57,7 +57,30 @@ Category | usage |
 | Lick | gif.lick() |
 | Cry | gif.cry() |   
 
+**ANIME QUOTES**
+=== 
+## Random Quote
+```js
+const { Quote } = require('djs-anime')
+const quote = new Quote({
+    message: message,
+    embedTitle: "Anime Quotes", //The title of the embed
+    embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+    })
+    quote.random()
+```
 
+## Character Quote
+```js
+const { Quote } = require('djs-anime')
+const quote = new Quote({
+    message: message,
+    embedTitle: "Anime Quotes", //The title of the embed
+    embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+    character: "Naruto" //The character you want to quote
+    })
+    quote.anime()
+```
 
 
 # Credits
