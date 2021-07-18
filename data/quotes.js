@@ -13,7 +13,7 @@ class Quote {
         this.message = options.message;
         this.embedTitle = options.embedTitle;
         this.embedColor = options.embedColor
-        this.character = options.character
+        this.title = options.title
 
     }
 
@@ -40,11 +40,11 @@ class Quote {
 
         await this.message.channel.send(embed)
     }
-    //Character Quotes
+    //Anime Quotes
     async anime() {
         const Discord = require('discord.js');
         const axios = require('axios');
-        const url = `https://animechan.vercel.app/api/quotes/anime?title=${this.character}`;
+        const url = `https://animechan.vercel.app/api/quotes/anime?title=${this.title}`;
 
         let response, data;
         try {
@@ -62,5 +62,8 @@ class Quote {
 
         await this.message.channel.send(embed)
     }
+    
+
+
 }
 module.exports = Quote;

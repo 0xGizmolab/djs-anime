@@ -70,17 +70,18 @@ const quote = new Quote({
     quote.random()
 ```
 
-## Character Quote
+## Anime Title Quote
 ```js
 const { Quote } = require('djs-anime')
 const quote = new Quote({
     message: message,
     embedTitle: "Anime Quotes", //The title of the embed
     embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
-    character: "Naruto" //The character you want to quote
+    title: "Naruto" //The anime you want the quote from
     })
     quote.anime()
 ```
+
 
 
 # Credits
