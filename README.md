@@ -1,3 +1,12 @@
+<h1 align="center">djs-anime</h1>
+<p align="center">
+   
+   <br>
+   <a href="https://www.npmjs.com/package/djs-anime"><img src="https://nodei.co/npm/djs-anime.png?downloadRank=true&downloads=true&downloadRank=true&stars=true" /></a>
+</p>
+
+
+
 # Note
 - DISCORD V12 - npm i djs-anime 
 - DISCORD V13 - npm i djs-anime@dev
