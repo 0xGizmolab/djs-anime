@@ -16,7 +16,7 @@ class Anime {
         this.embedTitle = options.embedTitle
         this.embedColor = options.embedColor
     }
-    //Random Cuddle
+   //Random Cuddle
     async cuddle() {
         const Discord = require('discord.js');
         const axios = require('axios');
@@ -37,9 +37,9 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
-    //Random hug
+//Random hug
     async hug() {
         const Discord = require('discord.js');
         const axios = require('axios');
@@ -60,7 +60,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random Kiss
     async kiss() {
@@ -83,9 +83,9 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
-    //Random Smile
+//Random Smile
     async smile() {
         const Discord = require('discord.js');
         const axios = require('axios');
@@ -106,7 +106,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random lick
     async lick() {
@@ -129,7 +129,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random wave
     async wave() {
@@ -152,7 +152,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random handhold
     async handhold() {
@@ -175,7 +175,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random wink
     async wink() {
@@ -198,7 +198,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
     //Random poke
     async poke() {
@@ -221,7 +221,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Dance
@@ -245,7 +245,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Cringe
@@ -269,7 +269,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Kill
@@ -293,7 +293,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Slap
@@ -317,7 +317,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random bite
@@ -341,7 +341,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Highfive
@@ -365,7 +365,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Blush
@@ -389,7 +389,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random pat
@@ -413,7 +413,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random smug
@@ -437,7 +437,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random bonk
@@ -461,7 +461,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Cry
@@ -485,7 +485,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Bully
@@ -509,7 +509,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Yeet
@@ -533,7 +533,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Happy
@@ -557,7 +557,7 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
 
     //Random Kick
@@ -581,9 +581,8 @@ class Anime {
             .setImage(data.url)
             .setFooter(this.embedFooter)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
-
 
 }
 module.exports = Anime;

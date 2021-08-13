@@ -1,7 +1,7 @@
 class Quote {
     constructor(options) {
 
-       
+  
 
         if (!options.embedTitle) throw new TypeError('Missing argument embedTitle')
         if (typeof options.embedTitle !== 'string') throw new TypeError('embedTitle must be a string')
@@ -11,7 +11,8 @@ class Quote {
         if (!options.message) throw new TypeError('Missing argument: message')
 
         this.message = options.message;
-        this.embedTitle = options.embedTitle;
+      
+        this.embedTitle = options.embedTitle
         this.embedColor = options.embedColor
         this.title = options.title
 
@@ -38,9 +39,8 @@ class Quote {
             .setColor(this.embedColor)
             .setFooter(`Anime: ${data.anime} | Character: ${data.character}`)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
-    //Anime Quotes
     async anime() {
         const Discord = require('discord.js');
         const axios = require('axios');
@@ -60,10 +60,7 @@ class Quote {
             .setDescription(data[index].quote)
             .setFooter(`Anime: ${data[index].anime} | Character: ${data[index].character}`)
 
-        await this.message.channel.send(embed)
+        await this.message.channel.send({ embeds: [embed] })
     }
-    
-
-
 }
 module.exports = Quote;

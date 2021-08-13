@@ -1,15 +1,6 @@
-<h1 align="center">djs-anime</h1>
-<p align="center">
-   
-   <br>
-   <a href="https://www.npmjs.com/package/djs-anime"><img src="https://nodei.co/npm/djs-anime.png?downloadRank=true&downloads=true&downloadRank=true&stars=true" /></a>
-</p>
-
-
-
 # Note
-- DISCORD V12 - npm i djs-anime 
-- DISCORD V13 - npm i djs-anime@dev
+- DISCORD V13 - npm i djs-anime 
+- DISCORD V12 - npm i djs-anime@old
 
 # About
 A discord.js Anime Package with With Many Anime Related Commands and Features!
@@ -27,6 +18,7 @@ USE ACCORDING TO YOUR COMMAND HANDLER
 **ANIME GIFs**
 === 
 
+### Normal Commands
 ```js
  const { Anime } = require('djs-anime')
     const gif = new Anime({
@@ -44,7 +36,7 @@ Category | usage |
 | Cuddle| gif.cuddle() |
 | Kiss | gif.kiss() | 
 | Hug | gif.hug() | 
-| Bully | gif.kiss() | 
+| Bully | gif.bully() | 
 | Poke | gif.poke() | 
 | Kick | gif.kick() |
 | Slap | gif.slap() |
@@ -65,6 +57,13 @@ Category | usage |
 | Pat | gif.pat() |
 | Lick | gif.lick() |
 | Cry | gif.cry() |   
+
+### SLASH COMMANDS
+===
+Example Usage: 
+https://sourceb.in/dmcGmKB2ko
+
+
 
 **ANIME QUOTES**
 === 
@@ -91,11 +90,19 @@ const quote = new Quote({
     quote.anime()
 ```
 
+**EXAMPLES**
+Check This Repository To Checkout all the examples on how to Use this Package:
+- https://github.com/GizmolabAI/DiscordBot-GL
 
+## Our Other packages:
+- [djs-games](https://www.npmjs.com/package/djs-games) - A package for discord games
+- [djs-utils](https://www.npmjs.com/package/djs-utils) - A package for utility commands
 
 # Credits
 API USED: https://waifu.pics/
 
 # Help
 
-Join our [Support Server](https://discord.gg/jDP2FbvCdk) for help
+Join our for help
+---
+<a href="https://discord.gg/jDP2FbvCdk"><img src="https://invidget.switchblade.xyz/jDP2FbvCdk" /></a>
