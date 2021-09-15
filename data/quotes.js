@@ -1,7 +1,9 @@
+const Discord = require('discord.js');
+const axios = require('axios');
 class Quote {
     constructor(options) {
 
-  
+
 
         if (!options.embedTitle) throw new TypeError('Missing argument embedTitle')
         if (typeof options.embedTitle !== 'string') throw new TypeError('embedTitle must be a string')
@@ -11,7 +13,7 @@ class Quote {
         if (!options.message) throw new TypeError('Missing argument: message')
 
         this.message = options.message;
-      
+
         this.embedTitle = options.embedTitle
         this.embedColor = options.embedColor
         this.title = options.title
@@ -20,8 +22,7 @@ class Quote {
 
     //Random Quote
     async random() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://animechan.vercel.app/api/random';
 
@@ -42,8 +43,7 @@ class Quote {
         await this.message.channel.send({ embeds: [embed] })
     }
     async anime() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
         const url = `https://animechan.vercel.app/api/quotes/anime?title=${this.title}`;
 
         let response, data;

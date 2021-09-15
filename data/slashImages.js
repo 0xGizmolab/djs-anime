@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+const axios = require('axios');
 class Slash {
     constructor(options) {
 
@@ -21,8 +23,7 @@ class Slash {
     }
     //Random Cuddle
     async anime() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const [type] = this.type
 
@@ -48,13 +49,12 @@ class Slash {
     }
 
     async quote() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const ranurl = 'https://animechan.vercel.app/api/random';
-       
 
-        if (this.args === "RANDOM"){
+
+        if (this.args === "RANDOM") {
 
             let response, data;
             try {
@@ -71,7 +71,7 @@ class Slash {
                 .setFooter(`Anime: ${data.anime} | Character: ${data.character}`)
 
             await this.interaction.followUp({ embeds: [ranembed] })
-        } else { 
+        } else {
 
             const [title] = this.args
             const url = `https://animechan.vercel.app/api/quotes/anime?title=${title}`

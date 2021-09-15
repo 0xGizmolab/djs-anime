@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const axios = require('axios');
+
 class Anime {
     constructor(options) {
 
@@ -16,10 +19,9 @@ class Anime {
         this.embedTitle = options.embedTitle
         this.embedColor = options.embedColor
     }
-   //Random Cuddle
+    //Random Cuddle
     async cuddle() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/cuddle';
 
@@ -39,10 +41,9 @@ class Anime {
 
         await this.message.channel.send({ embeds: [embed] })
     }
-//Random hug
+    //Random hug
     async hug() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/hug';
 
@@ -64,8 +65,7 @@ class Anime {
     }
     //Random Kiss
     async kiss() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/kiss';
 
@@ -85,10 +85,9 @@ class Anime {
 
         await this.message.channel.send({ embeds: [embed] })
     }
-//Random Smile
+    //Random Smile
     async smile() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/smile';
 
@@ -110,8 +109,7 @@ class Anime {
     }
     //Random lick
     async lick() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/lick';
 
@@ -133,8 +131,7 @@ class Anime {
     }
     //Random wave
     async wave() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/wave';
 
@@ -156,8 +153,7 @@ class Anime {
     }
     //Random handhold
     async handhold() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/handhold';
 
@@ -179,8 +175,7 @@ class Anime {
     }
     //Random wink
     async wink() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/wink';
 
@@ -202,8 +197,7 @@ class Anime {
     }
     //Random poke
     async poke() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/poke';
 
@@ -226,8 +220,7 @@ class Anime {
 
     //Random Dance
     async dance() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/dance';
 
@@ -250,8 +243,7 @@ class Anime {
 
     //Random Cringe
     async cringe() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/cringe';
 
@@ -274,8 +266,7 @@ class Anime {
 
     //Random Kill
     async kill() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/kill';
 
@@ -298,8 +289,7 @@ class Anime {
 
     //Random Slap
     async slap() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/slap';
 
@@ -322,8 +312,7 @@ class Anime {
 
     //Random bite
     async bite() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/bite';
 
@@ -346,8 +335,7 @@ class Anime {
 
     //Random Highfive
     async highfive() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/highfive';
 
@@ -370,8 +358,7 @@ class Anime {
 
     //Random Blush
     async blush() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/blush';
 
@@ -394,8 +381,7 @@ class Anime {
 
     //Random pat
     async pat() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/pat';
 
@@ -418,8 +404,7 @@ class Anime {
 
     //Random smug
     async smug() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/smug';
 
@@ -442,8 +427,7 @@ class Anime {
 
     //Random bonk
     async bonk() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/bonk';
 
@@ -466,8 +450,7 @@ class Anime {
 
     //Random Cry
     async cry() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/cry';
 
@@ -490,8 +473,7 @@ class Anime {
 
     //Random Bully
     async bully() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/bully';
 
@@ -514,8 +496,7 @@ class Anime {
 
     //Random Yeet
     async yeet() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/yeet';
 
@@ -538,8 +519,7 @@ class Anime {
 
     //Random Happy
     async happy() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/happy';
 
@@ -562,8 +542,7 @@ class Anime {
 
     //Random Kick
     async kick() {
-        const Discord = require('discord.js');
-        const axios = require('axios');
+
 
         const url = 'https://api.waifu.pics/sfw/kick';
 
